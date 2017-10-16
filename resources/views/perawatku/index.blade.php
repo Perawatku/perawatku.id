@@ -10,7 +10,7 @@
 			<thead>
 				<tr>
 					<td>No</td>
-					<td>Nama</td>
+					<td>Nama ade ganteng ntaaps</td>
 				</tr>
 			</thead>
 			<tbody>
