@@ -11,9 +11,14 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
-Route::resource('/perawatku','PerawatkuController');
+Route::resource('/','PerawatkuController');
 Route::get('/listrawat','PerawatkuController@listrawat');
+Route::get('/detailrs/{id}','PerawatkuController@detailrs');
+Route::get('detailrs/listperawat/{id}','PerawatkuController@listperawat');
+Route::get('detailrs/listperawat/detailperawat/{id}','PerawatkuController@detailperawat');
+Route::get('detailrs/listperawat/detailperawat/pemesanan/{id}','PerawatkuController@pemesanan');
+Route::post('pesanperawat','PerawatkuController@pemesananperawat');
