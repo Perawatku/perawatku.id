@@ -1,0 +1,513 @@
+/* ------------------------- PUBLIC CSS --------------------------------  */
+
+html, body{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+nav{
+    
+    height: 80px;
+    
+}
+
+.li-nav{
+    
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+nav ul li a{
+    
+    
+    
+}
+
+nav ul li {
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.li-nav-profile{
+    
+    height: 130px;
+    background-color: #00bff3;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.name-nav{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.navbar-brand img{
+    
+    width: 150px;
+    
+}
+
+/*-------------------------------*/
+
+/* NAVSCROLL DOWN */
+
+.shrink{
+    
+    background-color: rgba(190, 190, 190, 0.53);
+    height: 60px;
+    transition: 0.2s ease-out;
+    
+}
+
+.shrink .li-nav-profile{
+    
+    height: 0px;
+    background-color: #00bff3;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -10px;
+    
+}
+
+.shrink .li-nav-profile img{
+    
+    border: 2px solid #48a8cb;
+    transition: 0.2s ease-out;
+    
+}
+
+.shrink .navbar-brand img{
+    
+    width: 120px;
+    margin-top: 0px;
+    transition: 0.2s ease-out;
+    
+}
+
+.shrink li a{
+    
+    font-size: 8pt;
+    font-weight: bold;
+    transition: 0.2s ease-out;
+    
+}
+
+.shrink .li-nav{
+    
+    margin-top: 5px
+    
+}
+
+.shrink .name-nav{
+    display: none;
+    
+}
+
+.shrink .hamburger{
+    
+     margin-top: 10px;
+    
+}
+
+/* NAVSCHROOL DOWN */
+
+
+
+/* faq */
+
+footer{
+    
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.footer img{
+    
+    margin-bottom: 20px;
+    
+}
+
+.footer span{
+    
+    font-size: 9pt;
+    
+}
+
+footer ul li{
+    
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    margin-left: -40px;
+    
+}
+
+footer .footer{
+    
+    height: auto;
+    background-color: #1d1d1d;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 50px;
+}
+
+.footer-col-4{
+    
+    margin-bottom: 30px;
+    
+}
+
+/* END BURGER BAR DOWN */
+
+.iconx{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    
+}
+
+.hamburger{
+    
+    margin-top: 20px;
+    width: 30px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%; /* penting */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: .5s;
+    
+    
+}
+
+.hamburger:before, .hamburger:after{
+    
+    content: '';
+    position: absolute;
+    width: 30px;
+    left: 0%; /* penting */
+    height: 6px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: : .5s;
+    
+}
+
+.hamburger:before{
+    
+    top: -8px;
+    
+}
+.hamburger:after{
+    
+    top: 8px;
+    
+}
+
+
+.nav-close{
+    
+    display: none;
+    
+}
+
+/* END HAMBURGER MENU */
+
+
+/*---------------------------------------- */
+
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    
+     body{
+        
+        
+    }
+    
+    nav{
+    
+        height: 80px
+
+    }
+
+    .li-nav{
+
+        margin-top: 15px
+
+    }
+
+    nav ul li {
+
+        padding-left: 5px;
+        padding-right: 5px
+
+    }
+
+    .li-nav-profile{
+
+        height: 130px;
+        background-color: #00bff3;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 200px) { 
+    
+    
+    body{
+        
+        background-color: #f7f7f7
+        
+    }
+    
+    .nav{
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: rgba(0,0,0,.9);
+        transition: all 2s;
+        font-size: 12pt;
+    }
+    
+    
+    .nav-close{
+        
+        font-size: 14px;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        display: inline;
+        color: white;
+        top: 25%;
+        
+    }
+    
+    .li-nav-profile{
+    
+        height: 100%;
+        background-color: #00bff3;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+    }
+    
+    nav ul li a .li-nav, .active{
+    
+        color: white;
+        border: 1px solid #eee;
+        border-radius: 50px;
+        margin-right: 0px;
+        margin-bottom: 20px
+
+    }
+    
+    .navbar-collapse-full ul{
+        
+    }
+    
+    .navbar-collapse-full ul li{
+        
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px
+        
+    }
+    
+    .navbar-collapse-full ul li a{
+        
+        width: 100%;
+        font-size: 12pt;
+        
+    }
+    
+    .shrink .li-nav-profile{
+    
+        height: 100%;
+        background-color: #00bff3;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .shrink .li-nav-profile img{
+
+        border: 2px solid #48a8cb;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink .navbar-brand img{
+
+        width: 120px;
+        margin-top: 0px;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink li a{
+
+        font-size: 12pt;
+        font-weight: bold;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink .li-nav{
+
+        margin-top: 5px
+
+    }
+
+    .shrink .hamburger{
+
+         margin-top: 10px;
+
+    }
+    
+}
+
+/* ------------------------------------ PRIVATE CSS FAQ ---------------------------------------- */
+
+nav ul li a{
+    
+    color: white;
+    font-weight: bold;
+    
+}
+
+nav ul li a .li-nav, .active{
+    
+    color: white;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    margin-right: 20px;
+    
+}
+
+.big-banner{
+    
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: aqua;
+    background: url(../images/background-banner.png);
+    top: 0;
+    display: table;
+    background-size: cover;
+    
+}
+
+.big-banner .banner-content{
+    
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: none;
+    text-align: right;
+    
+}
+.content {
+    
+    max-width: 100%;
+    text-align: center;
+    
+    
+}
+
+.content h1{
+    
+    font-family: 'Century Gothic', sans-serif;
+    color: #f9f3f4;
+    font-size: 800%;
+    text-align: right;
+    text-shadow: 0 0 300px #000;
+    margin-bottom: 10px;
+    
+}
+
+.faq{
+    
+    cursor: pointer;
+    
+}
+
+#faq{
+    
+    letter-spacing: 1pt;
+    line-height: 30pt
+    
+}
+
+.content p{
+    
+    color: white;
+    text-align: right;
+    font-size: 10pt;
+    
+}
+
+h2{
+    
+    color: #00bff3;
+    cursor: pointer;
+}
+
+.answer-faq{
+                
+    display: none;
+
+}
+
+/* ------------------------------------ PRIVATE CSS FAQ ---------------------------------------- */
