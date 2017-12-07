@@ -23,8 +23,8 @@ class PerawatkuController extends Controller
 
     public function detailrs($id){
     	$rs = Rumah_sakit::where('id_rs',$id)->first();
-
-    	return view('perawatku/detailrs',['rs'=>$rs]);
+      $perawat = Perawat::where('id_rs',$id)->get();
+    	return view('perawatku/detailrs',['rs'=>$rs, 'perawat'=>$perawat]);
     }
 
     public function listperawat($id){
@@ -40,7 +40,7 @@ class PerawatkuController extends Controller
     	return view('perawatku/detailperawat',['perawat'=>$perawat]);
     }
 
-    public function pemesanan($id){    	
+    public function pemesanan($id){
     	$perawat = Perawat::where('id_perawat',$id)->first();
 
     	return view('perawatku/pemesanan',['perawat'=>$perawat]);
@@ -63,5 +63,13 @@ class PerawatkuController extends Controller
     		return redirect('/');
     	}
 
+    }
+    public function about(){
+
+    	return view('perawatku/about');
+    }
+    public function faq(){
+
+    	return view('perawatku/faq');
     }
 }

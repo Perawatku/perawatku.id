@@ -1,0 +1,426 @@
+
+@media only screen and (max-width: 768px) and (min-width: 200px) { 
+    
+    
+    body{
+        
+        background-color: #f7f7f7
+        
+    }
+    
+    .nav{
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: rgba(0,0,0,.9);
+        transition: all 2s;
+        font-size: 12pt;
+    }
+    
+    
+    .nav-close{
+        
+        font-size: 14px;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        display: inline;
+        color: white;
+        top: 25%;
+        
+    }
+    
+    .li-nav-profile{
+    
+        height: 100%;
+        background-color: #00bff3;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+    }
+    
+    nav ul li a .li-nav, .active{
+    
+        color: white;
+        border: 1px solid #eee;
+        border-radius: 50px;
+        margin-right: 0px;
+        margin-bottom: 20px
+
+    }
+    
+    .navbar-collapse-full ul{
+        
+    }
+    
+    .navbar-collapse-full ul li{
+        
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px
+        
+    }
+    
+    .navbar-collapse-full ul li a{
+        
+        width: 100%;
+        font-size: 12pt;
+        
+    }
+    
+    .shrink .li-nav-profile{
+    
+        height: 100%;
+        background-color: #00bff3;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .shrink .li-nav-profile img{
+
+        border: 2px solid #48a8cb;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink .navbar-brand img{
+
+        width: 120px;
+        margin-top: 0px;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink li a{
+
+        font-size: 12pt;
+        font-weight: bold;
+        transition: 0.2s ease-out;
+
+    }
+
+    .shrink .li-nav{
+
+        margin-top: 5px
+
+    }
+
+    .shrink .hamburger{
+
+         margin-top: 10px;
+
+    }
+    
+    .big-banner{
+    
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background-color: aqua;
+        background: url(../images/31.jpg);
+        top: 0;
+        display: table;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .big-banner h1{
+
+        font-size: 24pt;
+
+    }
+
+    .big-banner .banner-content{
+
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        text-align: center;
+        position: relative;
+        padding-top: 200px;
+
+    }
+
+    .banner-content {
+
+        color: white;
+
+    }
+
+    .banner-content p{
+
+        line-height: 20pt;
+        font-size: 10pt;
+        padding-top: 20px
+
+    }
+
+    .banner-content button{
+
+        background-color: #171717;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 50px;
+
+    }
+    
+
+    .header-service{
+
+        font-size: 24pt;
+        color: #00bff3;
+        font-weight: bold;
+
+    }
+
+    .service-content{
+
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 0px;
+
+    }
+
+    .tagline-service{
+
+        font-size: 10pt;
+        width: 50%;
+        margin: auto;
+
+    }
+
+    .service{
+
+        text-align: center;
+        font-size: 14pt;
+        padding-top: 20px;
+
+    }
+
+    .img-service{
+
+        width: 30%;
+        margin: auto;
+
+    }
+
+    .img-service img{
+
+        width: 100%;
+
+    }
+
+    .title-service{
+
+        margin-bottom: 20px;
+        height: 50px;
+        color: #48a8cb
+
+    }
+
+    .caption-service{
+
+        line-height: 20pt;
+        word-spacing: 2px;
+
+    }
+    
+    
+    .story{
+
+        height: 100%;
+        width: 100%;
+        color: #48a8cb;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    .story-content{
+
+        padding-top: 20px;
+
+    }
+
+    .img-story{
+
+        width: 100%;
+
+    }
+
+    .img-story img{
+
+        width: 50%
+
+    }
+
+    .caption-story{
+
+        color: #48a8cb;
+        font-size: 10pt;
+        line-height: 20pt;
+        word-spacing: 2pt;
+        padding-top: 30px;
+
+    }
+
+    .profile-img-story{
+
+        width: 100%;
+
+    }
+
+    .profile-img-story img{
+
+        display: none;
+    }
+    
+    
+    .app{
+
+        height: 400px;
+        width: 100%;
+        background-color: #34bff3;
+        color: white;
+        text-align: center;
+
+    }
+
+    .caption-app{
+
+        padding-top: 30px;
+
+    }
+
+    .caption-app h1{
+
+        font-weight: bold;
+        padding-top: 20px;
+
+    }
+
+    .caption-app p{
+
+        line-height: 20pt;
+        font-size: 14pt;
+        word-spacing: 2pt;
+        padding-top: 20px;
+
+    }
+
+    .caption-app button{
+
+        border-radius: 50px;
+        background-color: #1d1d1d;
+        font-size: 14pt;
+        padding:15px 30px;
+        margin-top: 10px;
+        width: 
+
+    }
+
+    .app-phone{
+
+        display: none;
+
+    }
+
+    
+    .journey{
+
+        height: 400px;
+        padding-top: 50px;
+
+    }
+
+    .list-journey{
+
+        padding-top: 50px;
+
+    }
+    
+    .list-journey h2{
+        
+        height: 80px;
+        font-size: 18pt;
+        
+    }
+
+    .journey-content{
+
+        text-align: center;
+
+    }
+
+    .journey-content h1{
+
+        font-size: 24pt;
+        font-weight: bold;
+
+    }
+
+    .journey-content p{
+
+        padding-top: 10px;
+        font-size: 14pt;
+
+    }
+    
+
+    .form-subscribe{
+
+        padding: 50px 10px;
+        background: linear-gradient(132deg, #42c3f2, #046191);
+        color: white;
+        border-radius: 50px;
+
+    }
+
+    .form-subscribe h2{
+
+        padding: 0;
+        font-size: 18pt;
+        text-align: center;
+        padding-bottom: 50px
+
+    }
+
+    .form-subscribe input{
+
+        padding: 25px;
+        border-radius: 50px;
+    }
+
+    .btn-subscribe{
+
+        padding: 20px 50px;
+        font-size: 14pt;
+        background-color: #e31d1d;
+        border-radius: 50px;
+        font-weight: bold;
+        width: 100%;
+
+
+    }
+    
+    
+}
