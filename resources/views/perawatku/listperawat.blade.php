@@ -5,7 +5,7 @@
 </head>
 <body>
 	<div>
-		List Perawat Rumah Sakit {{$rs->nama_rs}}
+		List <br>Perawat Rumah Sakit {{$rs->nama_rs}}
 	</div>
 	<div>
 		<table>

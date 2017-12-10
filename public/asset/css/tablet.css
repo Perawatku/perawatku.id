@@ -1,16 +1,31 @@
-@media only screen and (max-width: 991px) and (min-width: 768px) { 
- 
-     
-    
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+
+
     body{
-        
+
         background-color: #f7f7f7
-        
+
     }
-    
-    
+
+    .banner-img-imac{
+
+        width: 120%;
+        margin-top: 100px
+
+    }
+
+    .banner-content-right{
+
+        margin-top: 150px;
+        padding: 20px 50px;
+        text-align: left;
+        color: white;
+
+    }
+
     .shrink .li-nav-profile{
-    
+
         height: 100%;
         background-color: #00bff3;
         border-bottom-left-radius: 0px;
@@ -55,14 +70,13 @@
          margin-top: 10px;
 
     }
-    
+
     .big-banner{
-    
+
         width: 100%;
         height: 100%;
         margin: auto;
-        background-color: aqua;
-        background: url(../images/31.jpg);
+        background-color: #00BCD4;
         top: 0;
         display: table;
         background-size: cover;
@@ -111,7 +125,7 @@
         border-radius: 50px;
 
     }
-    
+
 
     .header-service{
 
@@ -172,8 +186,8 @@
         word-spacing: 2px;
 
     }
-    
-    
+
+
     .story{
 
         height: 100%;
@@ -221,10 +235,10 @@
     .profile-img-story img{
 
         padding-top: 150px;
-        
+
     }
-    
-    
+
+
     .app{
 
         height: 450px;
@@ -264,7 +278,7 @@
         font-size: 14pt;
         padding:15px 30px;
         margin-top: 10px;
-        width: 
+        width:
 
     }
 
@@ -273,13 +287,13 @@
         width: 250px;
 
     }
-    
+
     .app-phone img{
 
 
     }
 
-    
+
     .journey{
 
         height: 400px;
@@ -292,12 +306,12 @@
         padding-top: 50px;
 
     }
-    
+
     .list-journey h2{
-        
+
         height: 80px;
         font-size: 18pt;
-        
+
     }
 
     .journey-content{
@@ -319,7 +333,7 @@
         font-size: 14pt;
 
     }
-    
+
 
     .form-subscribe{
 
@@ -356,6 +370,6 @@
 
 
     }
-    
-    
+
+
 }

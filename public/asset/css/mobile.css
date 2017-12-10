@@ -1,15 +1,31 @@
 
-@media only screen and (max-width: 768px) and (min-width: 200px) { 
-    
-    
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+
+
     body{
-        
+
         background-color: #f7f7f7
-        
+
+    }
+
+    .banner-img-imac{
+
+        width: 80%;
+        margin-top: 100px
+
+    }
+
+    .banner-content-right{
+
+        margin-top: 10px;
+        padding: 20px 50px;
+        text-align: left;
+        color: white;
+        background-color: #48a8cb
     }
     
     .nav{
-        
+
         position: fixed;
         top: 0;
         left: 0;
@@ -20,10 +36,10 @@
         transition: all 2s;
         font-size: 12pt;
     }
-    
-    
+
+
     .nav-close{
-        
+
         font-size: 14px;
         text-decoration: none;
         position: absolute;
@@ -32,11 +48,11 @@
         display: inline;
         color: white;
         top: 25%;
-        
+
     }
-    
+
     .li-nav-profile{
-    
+
         height: 100%;
         background-color: #00bff3;
         border-bottom-left-radius: 0px;
@@ -47,9 +63,9 @@
 
 
     }
-    
+
     nav ul li a .li-nav, .active{
-    
+
         color: white;
         border: 1px solid #eee;
         border-radius: 50px;
@@ -57,31 +73,31 @@
         margin-bottom: 20px
 
     }
-    
+
     .navbar-collapse-full ul{
-        
+
     }
-    
+
     .navbar-collapse-full ul li{
-        
+
         position: relative;
         top: 25%;
         width: 100%;
         text-align: center;
         margin-top: 30px;
         padding: 0px
-        
+
     }
-    
+
     .navbar-collapse-full ul li a{
-        
+
         width: 100%;
         font-size: 12pt;
-        
+
     }
-    
+
     .shrink .li-nav-profile{
-    
+
         height: 100%;
         background-color: #00bff3;
         border-bottom-left-radius: 0px;
@@ -126,14 +142,13 @@
          margin-top: 10px;
 
     }
-    
+
     .big-banner{
-    
+
         width: 100%;
         height: 100%;
         margin: auto;
-        background-color: aqua;
-        background: url(../images/31.jpg);
+        background-color: #00BCD4;
         top: 0;
         display: table;
         background-size: cover;
@@ -182,7 +197,7 @@
         border-radius: 50px;
 
     }
-    
+
 
     .header-service{
 
@@ -243,8 +258,8 @@
         word-spacing: 2px;
 
     }
-    
-    
+
+
     .story{
 
         height: 100%;
@@ -293,8 +308,8 @@
 
         display: none;
     }
-    
-    
+
+
     .app{
 
         height: 400px;
@@ -334,7 +349,7 @@
         font-size: 14pt;
         padding:15px 30px;
         margin-top: 10px;
-        width: 
+        width:
 
     }
 
@@ -344,7 +359,7 @@
 
     }
 
-    
+
     .journey{
 
         height: 400px;
@@ -357,12 +372,12 @@
         padding-top: 50px;
 
     }
-    
+
     .list-journey h2{
-        
+
         height: 80px;
         font-size: 18pt;
-        
+
     }
 
     .journey-content{
@@ -384,7 +399,7 @@
         font-size: 14pt;
 
     }
-    
+
 
     .form-subscribe{
 
@@ -421,6 +436,6 @@
 
 
     }
-    
-    
+
+
 }

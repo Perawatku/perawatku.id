@@ -82,9 +82,19 @@ class RumahSakitController extends Controller
         //
     }
 
+    public function login()
+    {
+        return view('rumahsakit/login');
+    }
+
     public function perawat()
     {
         return view('rumahsakit/perawat');
+    }
+
+    public function perawat_detail()
+    {
+        return view('rumahsakit/perawat-detail');
     }
 
     public function perawat_add()
@@ -105,6 +115,16 @@ class RumahSakitController extends Controller
     public function profil_edit()
     {
         return view('rumahsakit/profil-edit');
+    }
+
+    public function notifikasi()
+    {
+        return view('rumahsakit/notifikasi');
+    }
+
+    public function notifikasi_detail()
+    {
+        return view('rumahsakit/notifikasi-detail');
     }
 
 }

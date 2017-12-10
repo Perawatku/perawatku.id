@@ -4,7 +4,7 @@
 	<div class="banner-content">
 		<div class="container">
 			<div class="content">
-				<h1>List Rumah Sakit</h1>
+				<h1>List <br> Rumah Sakit</h1>
 			</div>
 		</div>
 	</div>

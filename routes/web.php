@@ -25,9 +25,13 @@ Route::post('/pesanperawat','PerawatkuController@pemesananperawat');
 Route::get('/about','PerawatkuController@about');
 Route::get('/faq','PerawatkuController@faq');
 
+Route::get('/rumahsakit/login', 'RumahSakitController@login')->name('rumahsakit.login');
 Route::get('/rumahsakit', 'RumahSakitController@index')->name('rumahsakit.home');
 Route::get('/rumahsakit/perawat', 'RumahSakitController@perawat')->name('rumahsakit.perawat');
+Route::get('/rumahsakit/perawat-detail', 'RumahSakitController@perawat_add')->name('rumahsakit.perawat.add');
 Route::get('/rumahsakit/perawat-add', 'RumahSakitController@perawat_add')->name('rumahsakit.perawat.add');
 Route::get('/rumahsakit/perawat-edit', 'RumahSakitController@perawat_edit')->name('rumahsakit.perawat.edit');
 Route::get('/rumahsakit/profil', 'RumahSakitController@profil')->name('rumahsakit.profil');
 Route::get('/rumahsakit/profil-edit', 'RumahSakitController@profil_edit')->name('rumahsakit.profil.edit');
+Route::get('/rumahsakit/notifikasi', 'RumahSakitController@notifikasi')->name('rumahsakit.notifikasi');
+Route::get('/rumahsakit/notifikasi-detail', 'RumahSakitController@notifikasi_detail')->name('rumahsakit.notifikasi.detail');

@@ -9,6 +9,7 @@
     <title>Perawatku</title>
     <!-- Bootstrap -->
     <link href="{{ url('/asset/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ url('/asset/css/animate.css') }}" rel="stylesheet">
     <link href="{{ url('/asset/css/style.css') }}" rel="stylesheet">
     <link href="{{ url('/asset/css/mobile.css') }}" rel="stylesheet">

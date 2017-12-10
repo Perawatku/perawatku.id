@@ -18,22 +18,22 @@
                 <li class="header"></li>
                 <li class="header"></li>
                 <li class="active">
-                    <a href=""><span>Home</span></a>
+                    <a href="{{ url('/rumahsakit') }}"><span>Home</span></a>
                 </li>
                 <li>
-                    <a href=""><span>Profil</span></a>
+                    <a href="{{ url('/rumahsakit/profil') }}"><span>Profil</span></a>
                 </li>
                 <li>
-                    <a href=""><span>Perawat</span></a>
+                    <a href="{{ url('/rumahsakit/perawat') }}"><span>Perawat</span></a>
                 </li>
                 <li >
-                    <a href=""><span>Tambah Perawat</span></a>
+                    <a href="{{ url('/rumahsakit/perawat-add') }}"><span>Tambah Perawat</span></a>
                 </li>
                 <li>
-                    <a href=""><span>Notifikasi</span></a>
+                    <a href="{{ url('/rumahsakit/notifikasi') }}"><span>Notifikasi</span></a>
                 </li>
                 <li>
-                    <a href=""><span>Log Out</span></a>
+                    <a href="{{ url('/rumahsakit/logout') }}"><span>Log Out</span></a>
                 </li>
             </ul>
         </div>

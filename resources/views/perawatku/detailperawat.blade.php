@@ -6,13 +6,21 @@
 			<div class="content">
 				<div class="row">
 					<div class="col-sm-4 col-sm-offset-2 slideInLeft animated">
-						<img src="{{ url('/asset/images/ipad.png') }}" class="banner-img-imac">
+
+							<img src="{{ url('/asset/images/ipad.png') }}" class="banner-img-imac">
+
 					</div>
+
 					<div class="col-sm-4">
-						<div class="banner-content-right slideInRight animated judul-atas">
-							<h2>Kenali Keluhan Pasien</h2>
-							<p>ratusan template desain gratis untuk meningkatkan kualitas tugas-tugas kuliah kamu</p>
-						</div>
+
+							<div class="banner-content-right slideInRight animated">
+
+									<h2>Kenali Keluhan Pasien</h2>
+
+									<p>ratusan template desain gratis untuk meningkatkan kualitas tugas-tugas kuliah kamu</p>
+
+							</div>
+
 					</div>
 				</div>
 			</div>

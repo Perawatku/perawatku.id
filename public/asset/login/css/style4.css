@@ -1,0 +1,48 @@
+/* ------------------------- PUBLIC CSS --------------------------------  */
+body {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+}
+body:before {
+    content: "";
+    position: absolute;
+    background: url(../images/login-back.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 20%; width: 20%; /* Using Glen Maddern's trick /via @mente */
+
+    /* don't forget to use the prefixes you need */
+    transform: scale(5);
+    transform-origin: top left;
+    filter: blur(1px);
+}
+
+.btn btn-primary waves-effect waves-light .login{
+	border-radius: 13px;
+	background-color:#48a8cb;
+	padding: 5px 100px 5px 100px;
+	font-family: Lato;
+
+}
+
+/* css modal berhasil*/
+.judul-berhasil{
+	font-family: SciFly Sans;
+	font-size: 30px;
+	color: #48a8cb;
+}
+
+/*css modal gagal*/
+
+.judul-gagal{
+	font-family: SciFly Sans;
+	font-size: 30px;
+	color: red;
+}
+
+.btn-kembali{
+	border-radius: 15px;
+	background-color: #48a8cb;
+	color: #fff;
+}
